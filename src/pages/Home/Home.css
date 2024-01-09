@@ -1,0 +1,10 @@
+main {
+    grid-area: main;
+}
+
+main.home {
+    display: grid;
+    grid-template-areas: "content content content";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+}

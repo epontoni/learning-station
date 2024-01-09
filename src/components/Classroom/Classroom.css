@@ -1,0 +1,15 @@
+main {
+    display: grid;
+    grid-template-areas: "nav content content";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    main {
+      grid-template-areas:
+        "content"
+        "nav";
+      grid-template-columns: 1fr;
+    }
+  }
